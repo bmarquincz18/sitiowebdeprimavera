@@ -200,14 +200,14 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="index.html"><img src="imagenes/solitologo.png" height="72px"></a>
+      <a class="navbar-brand" href="index1.html"><img src="imagenes/solitologo.png" height="72px"></a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="index.html"></a></li>
-        <li><a href="index5.html">INICIO</a></li>
-        <li><a href="index7.html">INFORMACIÓN FLORAL</a></li>
-        <li><a href="index6.html">FLORISTERÍAS</a></li>
+        <li><a href="index1.html"></a></li>
+        <li><a href="index1.html">INICIO</a></li>
+        <li><a href="index2.html">INFORMACIÓN FLORAL</a></li>
+        <li><a href="index3.html">FLORISTERÍAS</a></li>
         <li><a href="#contact">CONTACTO</a></li>
         <li class="dropdown">
          
@@ -263,111 +263,205 @@
       <span class="sr-only">Next</span>
     </a>
 </div>
+<!-- Work Section -->
+<div class="w3-container" style="padding:34px 16px" id="work">
 
-   <!-- Page content -->
-<div class="w3-content w3-padding" style="max-width:1564px">
+  <p class="w3-center w3-large">Productos nuevos</p>
 
-    <!-- Project Section -->
-    <div class="w3-container w3-padding-32" id="projects">
-      <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">¿Cuáles son las flores más bonitas del mundo?: Nombres y fotos</h3>
+  <div class="w3-row-padding" style="margin-top:64px">
+    <div class="w3-col l3 m6">
+      <img src="imagenes/amargarita.png" style="width:80%" onclick="onClick(this)" class="w3-hover-opacity w3-right w3-tag w3-yellow w3-round " alt="RAMO DE ROSAS">
+      <span class="w3-right w3-tag w3-yellow w3-round">$10.000</span></h1>
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="imagenes/pelucheconflores.jpg" style="width:80%" onclick="onClick(this)" class="w3-hover-opacity w3-right w3-tag w3-yellow w3-round" alt="PELUCHE CON DETALLES">
+      <span class="w3-right w3-tag w3-yellow w3-round">$65.000</span></h1>
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="imagenes/rosaconchocolates.jpg" style="width:80%" onclick="onClick(this)" class="w3-hover-opacity w3-right w3-tag w3-yellow w3-round" alt="ROSAS CON CHOCOLATES Y DETALLES">
+      <span class="w3-right w3-tag w3-yellow w3-round">$75.000</span></h1>
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="imagenes/cerveza2.png" style="width:80%" onclick="onClick(this)" class="w3-hover-opacity w3-right w3-tag w3-yellow w3-round" alt="CANASTA DE CERVEZA CORONA CON DETALLES">
+      <span class="w3-right w3-tag w3-yellow w3-round">$65.000</span></h1>
+    </div>
+  </div>
+
+  <div class="w3-row-padding w3-section">
+    <div class="w3-col l3 m6">
+      <img src="imagenes/globo3.jpg.crdownload" style="width:80%" onclick="onClick(this)" class="w3-hover-opacity w3-right w3-tag w3-yellow w3-round" alt="GLOBOS">
+      <span class="w3-right w3-tag w3-yellow w3-round">$70.000</span></h1>
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="imagenes/canasta.jpg" style="width:80%" onclick="onClick(this)" class="w3-hover-opacity w3-right w3-tag w3-yellow w3-round" alt="ROSAS CON CHOCOLATES">
+      <span class="w3-right w3-tag w3-yellow w3-round">$75.000</span></h1>
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="imagenes/grado.jpg" style="width:80%" onclick="onClick(this)" class="w3-hover-opacity w3-right w3-tag w3-yellow w3-roundy" alt="CANASTA DE GRADO">
+      <span class="w3-right w3-tag w3-yellow w3-round">$80.000</span></h1>
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="imagenes/caja de rosas.jpg" style="width:80%" onclick="onClick(this)" class="w3-hover-opacity w3-right w3-tag w3-yellow w3-round" alt="UNAS LINDAS CAJAS DE ROSAS">
+      <span class="w3-right w3-tag w3-yellow w3-round">$85.000</span></h1>
+    </div>
+  </div>
+</div>
+
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-orange" onclick="this.style.display='none'">
+  <span class="w3-button w3-xxlarge w3-brown w3-padding-large w3-display-topright" title="Close Modal Image"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-circle" viewBox="0 0 16 16">
+    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+    <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+  </svg></span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+<!-- Container (The Band Section) -->
+<div id="band" class="container text-center "  style="padding:14px">
+  <h3>Primavera</h3>
+  <p><em><img src="imagenes/solitologo.png" height="140px"></em></p>
+   
+      <p class="w3-large w3-text-grey w3-hide-medium">Básicamente es una plataforma web que recopila la información de diversas empresas de Bogotá que ofrecen servicios de flores, donde se puede encontrar toda la variedad de información de los detalles que brinda cada uno de estos establecimientos alrededor de la ciudad</p>
+    
+  <br>
+  <div class="row">
+    <div class="col-sm-4">
+      <p class="text-center"><strong></strong></p><br>
+      <a href="demo" data-toggle="collapse">
+        
+        <img src="imagenes/corazonregalo.png"class="img-circle person" alt="Regalos y detalles" width="300" height="300" onclick="onClick(this)" class="w3-hover-opacity" alt="Detalles para las personas que mas quieres">
+      </a>
+    
+    </div>
+    <div class="col-sm-4">
+      <p class="text-center"><strong></strong></p><br>
+    
+      <img src="imagenes/mom.png"class="img-circle person" alt="Detalles para mamá" width="300" height="300" onclick="onClick(this)" class="w3-hover-opacity" alt="Detalles para las personas que mas quieres">
+ 
+      </a>
+      <div id="demo2" class="collapse">
+      
+      </div>
+    </div>
+    
+    <div class="col-sm-4">
+      <p class="text-center"><strong></strong></p><br>
+      <a href="#demo3" data-toggle="collapse">
+        <img src="imagenes/ddd.png"class="img-circle person" alt="Domicilios a la puerta de tu casa " width="350" height="350" onclick="onClick(this)" class="w3-hover-opacity" alt="Detalles para las personas que mas quieres">
+      </a>
+      <div id="demo3" class="collapse">
+    
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    <!-- Work Section -->
+<div class="w3-container" style="padding:38px 16px" id="work">
+    <h3 class="w3-center">Flores a tu gusto</h3>
+  
+  
+    <div class="w3-row-padding" style="margin-top:64px">
+      <div class="w3-col l3 m6">
+        <img src="imagenes/acianos2.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Acianos">
+      </div>
+      <div class="w3-col l3 m6">
+        <img src="imagenes/azucenas.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Azucenas">
+      </div>
+      <div class="w3-col l3 m6">
+        <img src="imagenes/girasol2.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Girasoles">
+      </div>
+      <div class="w3-col l3 m6">
+        <img src="imagenes/belladonas2.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Belladonas">
+      </div>
     </div>
   
-    <div class="w3-row-padding">
-      <div class="w3-col l3 m6 w3-margin-bottom">
-       
-        <div class="w3-display-container">
-          <div class="w3-display-topleft w3-black w3-padding">Ave del paraíso</div>
-          <a href="#contact"> <img src="img2/3.jpeg" alt="House" style="width:100%"></a>
+    <div class="w3-row-padding w3-section">
+      <div class="w3-col l3 m6">
+        <img src="imagenes/Crisantemos2 jpg.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Crisantemos">
+      </div>
+      <div class="w3-col l3 m6">
+        <img src="imagenes/azaleas2.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Azaleas">
+      </div>
+      <div class="w3-col l3 m6">
+        <img src="imagenes/amarilis.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Amarilis">
+      </div>
+      <div class="w3-col l3 m6">
+        <img src="imagenes/acacias.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Acacias">
+      </div>
+    </div>
+  </div>
+  
+ 
+
+  <h3 class="w3-center">Información floral</h3>
+        <div class="w3-row w3-container" style="margin:50px 0">
+            <div class="w3-half w3-container">
+             
+                <div class="w3-topbar w3-border-yellow">
+            
+                    <p class="w3-center w3-hover-opacity"style="padding:68px 16px"><img src="imagenes/hermosarosa.png" style="width:70%" onclick="onClick(this)"  alt="Acacias"></p>
+                    <h2 class="w3-center ">Rosas</h2>
+                    <p>Las rosas son las flores de mayor exportación en Colombia. Estas, se cultivan como ornamentales en la Sabana de Bogotá y una de sus principales características son los tallos largos que varían según los requisitos del país al cual se va a exportar y la tendencia de la variedad. Es un cultivo ornamental perenne. Los tallos deben ser cortados a nivel (flush cut), las hojas deben ser removidas del tercio inferior del ramo y, por lo general, se exportan 25 tallos por ramo. La variedad más conocida es Freedom, de color rojo. Dentro de esta especie encontramos rosa estándar, rosa spray y rosa de jardín</p>
+                </div>
+            </div>
+            
+            
+            <div class="w3-half w3-container">
+                <div class="w3-topbar w3-border-yellow">
+                  <p class="w3-center w3-hover-opacity   "style="padding:68px 16px"><img src="imagenes/hermosoclavel.png" style="width:70%" onclick="onClick(this)"  alt="Acacias"></p>
+            
+                  <h2 class="w3-center ">claveles</h2>
+                    <p>Colombia es el mayor productor de clavel en el mundo con más de 100 variedades producidas principalmente en la Sabana de Bogotá. Es un cultivo hidropónico productivo casi todo el año. Tiene diferentes puntos de corte según la tendencia de la variedad y los requisitos del mercado. Entre los puntos de corte podemos encontrar: Select (65cm), Fancy (55 cm), Standard (50 cm) y Short 50 cm. Una de las variedad más representativa es Don Pedro, de color rojo. Dentro de esta especie encontramos clavel estándar y mini clavel, este último generalmente con punto de corte Fancy 55 cm.</p>
+                  </div>
+            </div>
+
+        <div class="w3-row w3-container" style="margin:50px 0">
+        <div class="w3-half w3-container">
          
-          <p>La flor conocida como ave del paraíso es de origen sudafricano, debido a que requiere de entornos tropicales y subtropicales para crecer.
+            <div class="w3-topbar w3-border-yellow">
+              <p class="w3-center w3-hover-opacity   "style="padding:68px 16px"><img src="imagenes/hermososocrisantemo.png" style="width:70%" onclick="onClick(this)"  alt="Acacias"></p>
+            
+                <h2 class="w3-center ">Crisantemos</h2>
+            <p>Son flores que se cultivan principalmente en el Oriente de Antioquia. Se caracterizan por su inclusión en bouquets y arreglos para la temporada navideña. Son una excelente opción debido a su longevidad y facilidad de cuidado, además de su valor estético. El ciclo de cultivo es corto y se siembran a través de esquejes que requieren de un fotoperiodo para que el tallo de la planta en formación adquiera altura. Para crisantemos tipo spray, se debe realizar el corte de los botones principales para favorecer el desarrollo de los brotes laterales; para flores de tipo tipo estándar, sucede lo contrario: deben eliminarse los brotes laterales con el fin de dejar el central para su completo desarrollo.</p>
+          </div>
+        </div>
+        
+        
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-border-yellow">
+              <p class="w3-center w3-hover-opacity   "style="padding:68px 16px"><img src="imagenes/hermosasAlstroemerias.png" style="width:80%" onclick="onClick(this)"  alt="Acacias"></p>
+              <h2 class="w3-center ">Alstroemerias</h2>
+           
+            <p>El origen de la alstroemeria se da en la cordillera de Los Andes y su nombre original fue «lirio de los Incas». Es un producto relativamente nuevo en el mercado colombiano, se caracteriza por su gran follaje verde, la alta pigmentación en los botones florales y la mezcla de varios colores en los mismos. Es un cultivo que requiere de mallas de tutoraje. Es común que en el primer piso,  se despunte para generar la brotación de los primeros tallos florales, que luego serán cosechados aproximadamente a las 20 semanas después de la siembra de los rizomas. Los tallos se cortan cuando las flores apenas empiezan a abrirse. Se clasifican según su altura y número de botones por inflorescencia..</p>
+            </div>
+        </div>
+        <div class="w3-row w3-container" style="margin:50px 0">
+          <div class="w3-half w3-container">
+            <div class="w3-topbar w3-border-yellow">
+              <p class="w3-center w3-hover-opacity   "style="padding:68px 16px"><img src="imagenes/hermosasHortensias.png" style="width:70%" onclick="onClick(this)"  alt="Acacias"></p>
+              <h2 class="w3-center ">AHortensias</h2>
+             
+              <p>Este es un cultivo característico del Oriente antioqueño que actualmente es el más exportado en esta subregión del departamento. Se estiman alrededor de 1.500 hectáreas sembradas. La hortensia (Hydrangea sp.) es originaria de Japón y China. Recientemente en el mercado japonés la demanda ha venido creciendo de manera exponencial; esto gracias a que actualmente se cuenta con una amplia gama de colores y variedades. Se suele tener gran preferencia por los grandes tamaños en especial para el uso en hoteles y en fiestas. En condiciones tropicales, la hortensia es una planta que requiere una intensidad lumínica moderada, con un nivel de sombrío entre 30% y 40% para lo cual se utilizan polisombras en el cultivo.</p>
+            </div>
+          </div>
+          
+          <div class="w3-half w3-container">
+            <div class="w3-topbar w3-border-yellow">
+              <p class="w3-center w3-hover-opacity   "style="padding:68px 16px"><img src="imagenes/3434.png" style="width:130%" onclick="onClick(this)"  alt="Otras especies"></p>
+                <h2 class="w3-center ">Otras especies</h2>
+           
+              <p>Colombia es reconocido internacionalmente por su amplia diversidad y por su marca país Flowers of Colombia – diversity that inspires con más de 50 especies de flores producidas durante todo el año. Es por esto que, el país se ha consolidado internacionalmente como un productor de bouquets, es decir, arreglos florales de diferentes especies y variedades de flores que se venden listos para el consumidor final.
 
-        </p>
-        </div>
-      </div>
-      <div class="w3-col l3 m6 w3-margin-bottom">
-        <div class="w3-display-container">
-          <div class="w3-display-topleft w3-black w3-padding">Brick House</div>
-          <img src="/w3images/house2.jpg" alt="House" style="width:100%">
-        </div>
-      </div>
-      <div class="w3-col l3 m6 w3-margin-bottom">
-        <div class="w3-display-container">
-          <div class="w3-display-topleft w3-black w3-padding">Renovated</div>
-          <img src="/w3images/house3.jpg" alt="House" style="width:100%">
-        </div>
-      </div>
-      <div class="w3-col l3 m6 w3-margin-bottom">
-        <div class="w3-display-container">
-          <div class="w3-display-topleft w3-black w3-padding">Barn House</div>
-          <img src="/w3images/house4.jpg" alt="House" style="width:100%">
-        </div>
-      </div>
-    </div>
-  
-    <div class="w3-row-padding">
-      <div class="w3-col l3 m6 w3-margin-bottom">
-        <div class="w3-display-container">
-          <div class="w3-display-topleft w3-black w3-padding">Summer House</div>
-          <img src="/w3images/house2.jpg" alt="House" style="width:99%">
-        </div>
-      </div>
-      <div class="w3-col l3 m6 w3-margin-bottom">
-        <div class="w3-display-container">
-          <div class="w3-display-topleft w3-black w3-padding">Brick House</div>
-          <img src="/w3images/house5.jpg" alt="House" style="width:99%">
-        </div>
-      </div>
-      <div class="w3-col l3 m6 w3-margin-bottom">
-        <div class="w3-display-container">
-          <div class="w3-display-topleft w3-black w3-padding">Renovated</div>
-          <img src="/w3images/house4.jpg" alt="House" style="width:99%">
-        </div>
-      </div>
-      <div class="w3-col l3 m6 w3-margin-bottom">
-        <div class="w3-display-container">
-          <div class="w3-display-topleft w3-black w3-padding">Barn House</div>
-          <img src="/w3images/house3.jpg" alt="House" style="width:99%">
-        </div>
-      </div>
-    </div>
-   <!-- About Section -->
-   <div class="w3-container w3-padding-32" id="about">
-  
-  </div>
-
-  <div class="w3-row-padding w3-grayscale">
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div id="contact" class="container w3-border-orange " style="padding:24px">
-      <img src="/w3images/team2.jpg" alt="John" style="width:100%">
-      <h3>John Doe</h3>
-      <p class="w3-opacity">CEO & Founder</p>
-      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-      <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <img src="/w3images/team1.jpg" alt="Jane" style="width:100%">
-      <h3>Jane Doe</h3>
-      <p class="w3-opacity">Architect</p>
-      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-      <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <img src="/w3images/team3.jpg" alt="Mike" style="width:100%">
-      <h3>Mike Ross</h3>
-      <p class="w3-opacity">Architect</p>
-      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-      <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <img src="/w3images/team4.jpg" alt="Dan" style="width:100%">
-      <h3>Dan Star</h3>
-      <p class="w3-opacity">Architect</p>
-      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-      <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
-    </div>
-  </div>
-  
-    </div> 
+                Entre las otras especies producidas en Colombia podemos encontrar: Agapanthus, Aster, Estrellita de Irlanda, Ave del Paraíso, Bupleurum, Callas, Campanula, Freesia, Gerbera, Godetia, Gypsophila, Hypericum, Iris, Kangaroo Paw, Larkspur, Liatris, Lirios, Limonium, Matsumoto, Phlox, Snapdragon, Solidago, Estrella de Belen, Statice, Stock, Girasol, Trachelium, Tuberoses, Volkerfrieden, entre otras.</p>
+              </div>
+          </div>
+          </div>
+        
 <!-- Container (Contact Section) -->
 <div id="contact" class="container w3-border-orange " style="padding:24px">
   <h3 class="text-center">Contacto</h3>
@@ -432,13 +526,15 @@
     <!-- (p>lorem)*20 (código a usar si tienes instalada la extensión emmet)-->
 </div>
 
-<div class="social">
-    <a href="https://www.facebook.com/Primavera-florister%C3%ADa-100637391943840"><img src="imagenes/facebook.svg" alt="facebook"height="30px"></a>
-    <a href="https://youtu.be/uBu2vrGXYG4"><img src="imagenes/youtube.png" alt="youtube"height="30px"></a>
-    <a href="https://mail.google.com/mail/u/2/#inbox"><img src="imagenes/gmail.svg" alt="gmail"height="30px"></a>
-    <a href="https://www.instagram.com/primaveraa.__/?hl=es-la"><img src="imagenes/instagram.svg" alt="instagram"height="30px"></a>
-</div>
 
+<div class="social">
+  <a href="https://web.whatsapp.com/"><img src="img2/whatsapp.svg" alt="whatsapp"height="30px"></a>
+    <a href="https://www.facebook.com/Primavera-florister%C3%ADa-100637391943840"><img src="img2/facebook.svg" alt="facebook"height="30px"></a>
+    <a href="https://youtu.be/uBu2vrGXYG4"><img src="img2/youtube.svg" alt="youtube"height="30px"></a>
+    <a href="https://mail.google.com/mail/u/2/#inbox"><img src="img2/gmail.svg" alt="gmail"height="30px"></a>
+    <a href="https://www.instagram.com/primaveraa.__/?hl=es-la"><img src="img2/instagram.svg" alt="instagram"height="30px"></a>
+    
+</div>
 
 
 </div>
